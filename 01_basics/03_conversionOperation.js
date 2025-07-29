@@ -33,3 +33,45 @@ let someNumber = 33
 
 let stringNumber = String(someNumber); // Converts number 33 to string "33"
 console.log(typeof stringNumber); // prints "string"
+
+
+// ********************** Operations ********************** //
+
+let value =3;
+let negValue = -value;
+console.log(negValue); // prints -3
+
+
+//console.log(2+2); // prints 4
+//console.log(2-2); // prints 0
+//console.log(2*2); // prints 4
+//console.log(2/2); // prints 1
+//console.log(2%2); // prints 0 (remainder of 2 divided by 2)
+//console.log(2**3); // prints 8 (2 raised to the power of 3)
+//console.log(2+2*2); // prints 6 (multiplication before addition)
+//console.log((2+2)*2); // prints 8 (addition inside parentheses evaluated first
+
+
+let str1 = "Hello";
+let str2 = "Soumalya"
+let str3 = str1 + str2; // Concatenates two strings
+console.log(str3); // prints "HelloSoumalya"
+
+// console.log("1" + 2); // prints "12" (string concatenation)
+// console.log(1 + "2"); // prints "12" (string concatenation)
+// console.log("1" + "2"); // prints "12" (string concatenation)
+// console.log(1 + 2 + "3"); // prints "33" (number addition followed by string concatenation)
+// console.log("1" + 2 + 3); // prints "123" (string concatenation)
+// console.log(1 + 2 + "3" + 4); // prints "334" (number addition followed by string concatenation)
+// console.log(1 + 2); // prints 3 (number addition)
+
+
+let gameCounter = 100;
+++gameCounter; // Increments gameCounter by 1 // prefix increment will increment the value before using it 
+console.log(gameCounter); // prints 101
+
+gameCounter++; // Increments gameCounter by 1 // postfix increment will increment the value after using it
+console.log(gameCounter); // prints 101
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
